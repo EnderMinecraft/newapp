@@ -16,15 +16,16 @@ sq.shapesize(100,100)
 xin=random.randint(0, 7)
 yin=random.randint(0, 3)
 while True:
+        def fxn(x, y):
+            a=random.randint(-300,10)
+            b=random.randint(10,300)
+            sq.setposition(a,b)
+            winsound.PlaySound("click.wav", winsound.SND_ASYNC | winsound.SND_NOSTOP)
         x=sq.xcor()
         y=sq.ycor()
         x=x+xin
         y=y+yin
         sq.setposition(x,y)
-        def fxn(x, y):
-            a=random.randint(-300,10)
-            b=random.randint(10,300)
-            sq.setposition(a,b)
         if (x==400 or x==-400):
             xin=xin*-0.4
         if (y==200 or y==-200):
