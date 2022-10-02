@@ -196,7 +196,8 @@ if (s==3):
     sq.shape("skin3.gif")
 if (s==4):
     sq.shape("skin4.gif")
-sq.shapesize(100,100)
+sq.shapesize(50,50)
+sq.penup()
 sq.speed(m)
 
 #boundnclk
