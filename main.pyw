@@ -21,7 +21,7 @@ label1 = Label(root, image = bg)
 label1.place(x = 0,y = -1)
 label2= Label(root, image = bg)
 label2.place(x = 0,y = 240)
-l = Label(root, text = "Gamemode is EASY", bg="#3355cc")
+l = Label(root, text = "Gamemode is EASY", bg="grey")
 l.config(font =("Calibri", 14))
 l.pack()
 
@@ -42,16 +42,7 @@ def skin1():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def skin2():
     global skin
     global bg
@@ -63,16 +54,7 @@ def skin2():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def skin3():
     global skin
     global bg
@@ -84,16 +66,7 @@ def skin3():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def skin4():
     global skin
     global bg
@@ -105,16 +78,7 @@ def skin4():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def egg():
     global skin
     global bg
@@ -126,16 +90,7 @@ def egg():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def gegg():
     global skin
     global bg
@@ -147,16 +102,7 @@ def gegg():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def skinhax():
     global skin
     global bg
@@ -168,16 +114,7 @@ def skinhax():
     label1.place(x = 0,y = -1)
     label2= Label(root, image = bg)
     label2.place(x = 0,y = 240)
-    button = Button(root, text="Myth", command=myth, height=1, width=4)
-    button.place(x=360, y=420)
-    button = Button(root, text="Easy", command=ez, height=1, width=4)
-    button.place(x=137, y=50)
-    button = Button(root, text="Normal", command=norm, height=1, width=5)
-    button.place(x=180, y=50)
-    button = Button(root, text="Hard", command=hard, height=1, width=4)
-    button.place(x=230, y=50)
-    button = Button(root, text="START", command=root.destroy, height=1, width=10)
-    button.place(x=160, y=150)
+    btt()
 def skinsc1():
         global skin
         skin=7
@@ -209,7 +146,7 @@ def ez():
         speed=2
         global l
         l.destroy()
-        l = Label(root, text = "Gamemode is EASY", bg="#3355cc")
+        l = Label(root, text = "Gamemode is EASY", bg="grey")
         l.config(font =("Calibri", 14))
         l.pack()
 def norm():
@@ -217,7 +154,7 @@ def norm():
         speed=5
         global l
         l.destroy()
-        l = Label(root, text = "Gamemode is NORMAL", bg="#3355cc")
+        l = Label(root, text = "Gamemode is NORMAL", bg="grey")
         l.config(font =("Calibri", 14))
         l.pack()
 def hard():
@@ -225,21 +162,23 @@ def hard():
         speed=10
         global l
         l.destroy()
-        l = Label(root, text = "Gamemode is HARD", bg="#3355cc")
+        l = Label(root, text = "Gamemode is HARD", bg="grey")
         l.config(font =("Calibri", 14))
         l.pack()
 
 #setupbutton
-button = Button(root, text="Myth", command=myth, height=1, width=4)
-button.place(x=360, y=420)
-button = Button(root, text="Easy", command=ez, height=1, width=4)
-button.place(x=137, y=50)
-button = Button(root, text="Normal", command=norm, height=1, width=5)
-button.place(x=180, y=50)
-button = Button(root, text="Hard", command=hard, height=1, width=4)
-button.place(x=230, y=50)
-button = Button(root, text="START", command=root.destroy, height=1, width=10)
-button.place(x=160, y=150)
+def btt():
+    button = Button(root, text="Myth", command=myth, height=1, width=4)
+    button.place(x=360, y=420)
+    button = Button(root, text="Easy", command=ez, height=1, width=4)
+    button.place(x=137, y=50)
+    button = Button(root, text="Normal", command=norm, height=1, width=5)
+    button.place(x=180, y=50)
+    button = Button(root, text="Hard", command=hard, height=1, width=4)
+    button.place(x=230, y=50)
+    button = Button(root, text="START", command=root.destroy, height=1, width=10)
+    button.place(x=160, y=150)
+btt()
 
 #setupmenubar
 menubar = Menu(root)
@@ -264,10 +203,10 @@ helpmenu.add_command(label="DO NOT CLICK", command=rig)
 helpmenu.add_command(label="Myth", command=myth)
 helpmenu.add_command(label="About", command=about)
 menubar.add_cascade(label="Help", menu=helpmenu)
-password = tk.StringVar()
-true = 124
 
 #p2wset
+password = tk.StringVar()
+true = 124
 def test():
     if (tk.StringVar() == true):
         skinhax()
@@ -282,9 +221,43 @@ def s():
     login_button.pack(fill='x', expand=True, pady=10)
 
 #devfunc
+Trail=0
 def boost():
     global boost
-    boost=1
+    if(boost==1):
+        tkinter.messagebox.showinfo("Already Enabled","Already Enabled")
+    elif(boost==0):
+        boost=1
+        tkinter.messagebox.showinfo("Enabled","Enabled")
+    else:
+        boost=1
+def noboost():
+    global boost
+    if(boost==0):
+        tkinter.messagebox.showinfo("Already Disabled","Already Disabled")
+    elif(boost==1):
+        boost=0
+        tkinter.messagebox.showinfo("Disabled","Disabled")
+    else:
+        boost=0    
+def Trail():
+    global Trail
+    if(Trail==1):
+        tkinter.messagebox.showinfo("Already Enabled","Already Enabled")
+    elif(Trail==0):
+        Trail=1
+        tkinter.messagebox.showinfo("Enabled","Enabled")
+    else:
+        Trail=1
+def Notrail():
+    global Trail
+    if(Trail==0):
+        tkinter.messagebox.showinfo("Already Disabled","Already Disabled")
+    elif(Trail==1):
+        Trail=0
+        tkinter.messagebox.showinfo("Disabled","Disabled")
+    else:
+        Trail=0
 def pspeed():
         global speed
         speed=speed+1
@@ -315,14 +288,18 @@ def New_Window():
     hskin.add_command(label="Skin2", command=skinsc2)
     hskin.add_command(label="Skin3", command=skinsc3)
     Dev.add_cascade(label="Secret Skin", menu=hskin, underline=0)
-    button = tk.Button(hax, text="Boost point", bg='White', fg='Black',command=boost)
-    button.place(x=175, y=0)
+    button = tk.Button(hax, text="Boost", bg='White', fg='Black',command=boost)
+    button.place(x=60, y=0)
+    button = tk.Button(hax, text="Noboost", bg='White', fg='Black',command=noboost)
+    button.place(x=0, y=0)
     button = tk.Button(hax, text="+1 Speed", bg='White', fg='Black',command=pspeed)
-    button.place(x=175, y=100)
+    button.place(x=0, y=30)
     button = tk.Button(hax, text="-1 Speed", bg='White', fg='Black',command=nspeed)
-    button.place(x=175, y=50)
-    button = tk.Button(hax, text="Test", bg='White', fg='Black',command=s)
-    button.pack()
+    button.place(x=64, y=30)
+    button = tk.Button(hax, text="Trail", bg='White', fg='Black',command=Trail)
+    button.place(x=0, y=60)
+    button = tk.Button(hax, text="NoTrail", bg='White', fg='Black',command=Notrail)
+    button.place(x=35, y=60)
 
 #devmenu
 HAXmenu = Menu(menubar, tearoff=0)
@@ -381,6 +358,11 @@ else:
     turtle.shape("skin1.gif")
 turtle.shapesize(50,50)
 turtle.penup()
+if(Trail==1):
+    turtle.color('red')
+    turtle.pendown()
+elif(Trail==0):
+    turtle.penup()
 turtle.speed(speed)
 rnd1=random.randint(1,5)
 rnd2=random.randint(2,9)
@@ -388,11 +370,7 @@ rnd2=random.randint(2,9)
 xin=random.randint(0, 7)
 yin=random.randint(0, 3)
 while True:
-        def show():
-                turtle.pendown()
-        def hide():
-                turtle.penup()
-        def fxn(x1, y1):
+        def fxn(a, b):
                 global n
                 a=random.randint(-300,10)
                 b=random.randint(10,300)
@@ -404,14 +382,16 @@ while True:
                 else:
                     n=n+o
                 turtle.title(n)
-        x=turtle.xcor()
-        y=turtle.ycor()
-        x1=x+xin+rnd1
-        y1=y+yin+rnd2
-        turtle.setposition(x1, y1)
-        if (x==300 or x==-300):
+        x = turtle.xcor()
+        y = turtle.ycor()
+        xm = x+xin+rnd1
+        ym = y+yin+rnd2
+        turtle.setposition(xm, ym)
+        if (xm==400 or xm==-400):
             xin=xin*-0.4
-        if (y==400 or y==-400):
+            rnd1=rnd1*-0.3
+        if (ym==500 or ym==-500):
             yin=yin*-0.6
-        turtle.onclick(fxn, btn=1)
+            rnd2=rnd2*-0.5
+        turtle.onclick(fxn)
 
